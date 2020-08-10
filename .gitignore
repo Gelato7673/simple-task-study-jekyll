@@ -1,0 +1,5 @@
+_post
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
