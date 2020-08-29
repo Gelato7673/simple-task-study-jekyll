@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-08T00:13:22+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/08/08/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-08-08T00:11:53+09:00</published><updated>2020-08-08T00:11:53+09:00</updated><id>http://localhost:4000/jekyll/update/2020/08/08/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/08/08/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-08-28T16:09:50+09:00</updated><id>/feed.xml</id><entry><title type="html">Sample</title><link href="/2020/08/27/sample.html" rel="alternate" type="text/html" title="Sample" /><published>2020-08-27T00:00:00+09:00</published><updated>2020-08-27T00:00:00+09:00</updated><id>/2020/08/27/sample</id><content type="html" xml:base="/2020/08/27/sample.html">&lt;p&gt;Do Le Mi&lt;/p&gt;</content><author><name>Gelato</name></author><summary type="html">Do Le Mi</summary></entry><entry><title type="html">Jill Master</title><link href="/2020/08/27/jill-master.html" rel="alternate" type="text/html" title="Jill Master" /><published>2020-08-27T00:00:00+09:00</published><updated>2020-08-27T00:00:00+09:00</updated><id>/2020/08/27/jill-master</id><content type="html" xml:base="/2020/08/27/jill-master.html">&lt;p&gt;Do Le Mi&lt;/p&gt;</content><author><name>jill</name></author><summary type="html">Do Le Mi</summary></entry><entry><title type="html">지킬 커스텀 하는법</title><link href="/2020/08/23/custom-jekyll.html" rel="alternate" type="text/html" title="지킬 커스텀 하는법" /><published>2020-08-23T00:00:00+09:00</published><updated>2020-08-23T00:00:00+09:00</updated><id>/2020/08/23/custom-jekyll</id><content type="html" xml:base="/2020/08/23/custom-jekyll.html">&lt;p&gt;지킬로 컴퓨터에 설치하는법
+https://jekyllrb.com/docs/step-by-step/10-deployment/&lt;/p&gt;
+
+&lt;p&gt;일단, 설치를 했다면, 
+서버를 켜는 방법과 끄는 방법을 알아야 합니다.
+※참고, config 파일은 서버를 재시작 해줘야만 적용됩니다.&lt;/p&gt;
+
+&lt;p&gt;gemfile 을 이용한다면. 이렇게 서버를 켜면 됩니다.
+bundle exec jekyll serve&lt;/p&gt;
+
+&lt;p&gt;그리고, 끌때는 terminal에 나온것처럼
+ctrl+c 를 이용!&lt;/p&gt;
+
+&lt;p&gt;이외에 많은 지킬 관련된 명령행 사용법이 아래 문서에 있다. (언어의 압박이 있었는데, 얼마전 번역된것을 발견)
+http://jekyllrb-ko.github.io/docs/usage/&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;다른 테마를 적용해 보자!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;내가 지킬 사이트를 만들어보자!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Question
+jekyll new PATH : 지정된 경로에 새 Jekyll 사이트를 생성한다. 는것.. 인데 뭘까나?
+이걸로 여러가지 실험을 해보자. 다시 올리게 되어도 상관없어. 다 날라가도 상관없다! 다시하면 되니까. 두려워 하지말자.&lt;/p&gt;
+
+&lt;p&gt;그리고, 마크업 하는방법도 알아야 하는데요.
+일단, 기본적인 것은 jekyll사이트의 poast 문서를 참고해 보세요.
+https://jekyllrb.com/docs/posts/&lt;/p&gt;
+
+&lt;p&gt;근데, 만약에 주석처리 하고 싶은 내용이 있으면.. 대체 주석 처리는 어떻게 하는거야?? 심히 궁금하네요.
+(그냥 private 계정으로 옮겨야 마음이 편할지도 모르겠음. 정말로 그게 맘 편할 것 같아)&lt;/p&gt;
+
+&lt;p&gt;테마를 만들고 싶진 않은데, 남이 만든걸 가져다 쓰긴 좀 그렇고.. 참으로.. 그런상황이네요. 대충 남이꺼 가져다가 커스텀 해서 쓰는 방법을 알면
+참 좋겠는데, 그게 잘 되려나 모르겠어요. 만드는 거랑 남이꺼 커스텀 해서 쓰는 거랑 어떤게 더 빠른지 한번 볼께요.
+[아. 만드는게 빠르구나.]&lt;/p&gt;
+
+&lt;p&gt;지킬 테마만드는 법 (번역본)
+https://paikwiki.github.io/2018/10/create-your-own-jekyll-theme-gem-ko&lt;/p&gt;</content><author><name></name></author><summary type="html">지킬로 컴퓨터에 설치하는법 https://jekyllrb.com/docs/step-by-step/10-deployment/</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2020/08/08/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-08-08T00:11:53+09:00</published><updated>2020-08-08T00:11:53+09:00</updated><id>/jekyll/update/2020/08/08/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2020/08/08/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
