@@ -20,8 +20,8 @@
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
 # Make Collections
 collections:
@@ -47,7 +47,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-
 
 
 
